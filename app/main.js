@@ -1,9 +1,9 @@
 //main.js
 import React from 'react';
 import ReactDom from 'react-dom';
-import Component1 from './components/Component1.js';
+import Component3 from './components/Component3.js';
 
 ReactDom.render( 
-    <Component1 /> ,
+    <Component3 /> ,
     document.getElementById('content')
 );
