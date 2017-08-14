@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "dev": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
@@ -15,11 +16,11 @@
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
   },
-  "scripts": {
-    "start": "webpack",
-    "dev":"webpack-dev-server"
+  "dependencies": {
+    "react-router-dom": "^4.1.2"
   }
 }
